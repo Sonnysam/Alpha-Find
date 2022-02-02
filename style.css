@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,100;1,300;1,500;1,600;1,900&display=swap');
+
+:root{
+    --color: #ff6734;
+    --white: #fff;
+    --black: #1c2b2d;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+    --twitter:  hsl(207, 93%, 46%);
+    --fb:hsl(221, 89%, 41%);
+    --db: rgb(3, 3, 65);
+}
+  
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    min-height: 5vh;
+    background-color:   white;
+}
+button.btn.btn-primary.sign-up {
+    padding: 0.6rem 1.8rem;
+    font-size: 1.9rem;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: var(--db);
+}
+i.fa.fa-bars {
+    font-size: 2rem;
+    color: black;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+a.nav-link.active {
+    margin-right: 2.1rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+a.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--db);
+}
+span.find {
+    font-size: 1.8rem;
+    color: #F8B43C;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background: url(images/Background.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 1rem;
+}
+input.search {
+    width: 42rem;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: -2.2rem;
+}
+img.plane{
+    float: right;
+    margin-top: -3.1rem;
+    position: relative;
+    margin-right: 1rem;
+}
+
+
+i.fas.fa-paper-plane.float-end.plane {
+    margin-top: -2.5rem;
+    margin-right: 1rem;
+    font-size: 1.2rem; 
+    color: var(--db);
+}
+.img{
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+}
+h2.hostel.d-flex.justify-contents-center.align-items-center {
+    margin-top: 8rem;
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+a {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: -5px;
+}
+i.fab.fa-youtube {
+    color: red;
+    font-size: 3rem;;
+}
+a.text-decoration-none.p-2.see {
+    float: right;
+}
+
+
+/* About Alpha Section */
+.about-alpha{
+    min-height: 60vh;
+    background-color: #F8B43C;
+}
+
+h1.alphafind.mt-lg-5 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+img.girl {
+    margin-left: -12rem;
+    height: 100%;
+    width: 650px;
+}
+p.alphafind-text.mt-2.ls- {
+    font-size: 1.3rem;
+    font-weight: 400;
+}  
+
+.about-alpha-3{
+    min-height: 60vh;
+    background-color: var(--db);
+}
+
+
+h1.alphafind-3.mt-lg-5 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+p.alphafind-text-3.mt-2.ls- {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+input.form-control.form-control-lg.find {
+    margin-top: -2.7rem;
+    width: 42rem;
+    outline: none;
+    background: lightgrey;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    color: var(--db);
+}
+i.fa.fa-envelope {
+        padding: 0.7rem;
+        font-size: 1rem;
+        margin-right: 10px ;
+}
+button.male {
+    padding: 9px 20px;
+    font-size: 1.5rem;
+    background: lightgrey;
+    outline: none;
+    border: none;
+    color: var(--db);
+}
+button.female {
+    padding: 9px 20px;
+    font-size: 1.5rem;
+    background: lightgrey;
+    outline: none;
+    border: none;
+    color: var(--db);
+}
+/* Newsletter Section */
+.newsletter{
+    min-height: 30vh;
+    background-color: white;
+}
+h1.new {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+h2.subscribe {
+    font-size: 1.27rem;
+    font-weight: 500;
+    margin-top: -0.5rem;
+}
+input.subscribe {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background: #DBDBE5;
+    font-size: 1.4rem;
+    border-radius: 3px;
+}
+button.male.btnn {
+    padding: 0.9rem 2.2rem;
+    border-radius: 3px;
+    background: #DBDBE5;
+}
+button.female.btnn {
+    padding: 0.9rem 2.2rem;
+    border-radius: 3px;
+    background: #DBDBE5;
+}
+img.email {
+    position: absolute;
+    margin-top: 1.1rem;
+    margin-left: 0.5rem;
+}
+.subscribe{
+    width: 40rem;
+}
+
+/* Footer Section */
+.footer{
+    min-height: 50vh;
+    background-color:var(--db);
+    color: white;
+}
+ul li img{
+    height: 50px;
+    width: 50px;
+}
+li {
+    list-style-type: none;
+    display: inline-grid;
+    padding: 0.2rem;
+}
+.icons{
+ margin-left: -2.2rem;
+}
+hr.horizontal {
+    color: white;
+    height: 3px;
+}
+h4, li{
+    color: lightgrey;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+ul.legal{
+    margin-left: -2.2rem;
+}
+ul.help{
+    margin-left: -2.2rem;
+}
+ul.more{
+    margin-left: -2.2rem;
+}
+
+
+
+
+/* CopyRight Section */
+.col-md-3.copy {
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width:900px){
+    ul.legal{
+        display: flex;
+        flex-direction: column;
+    }
+    ul.help{
+        display: flex;
+        flex-direction: column;
+    }
+    input.search {
+        width: 25rem;
+    }
+    
+    h1.text-center.text-light.d-flex.justify-contents-center.align-items-center.mb-5 {
+        font-size: 1.4rem;
+    }
+    input.subscribe {
+        width: 27rem;
+    }
+    button.female.btnn, button.male.btnn {
+        padding: 0.3rem 0.7rem;
+        font-size: 1rem;
+    }
+    img.email {
+        margin-top: 0.6rem;
+    }
+   
+    
+
+}
+    
